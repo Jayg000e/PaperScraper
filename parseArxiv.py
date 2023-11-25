@@ -31,7 +31,7 @@ if __name__ == "__main__":
     url = f'https://arxiv.org/list/cs.CV/pastweek?show={args.show}'
 
     # Directory to save the papers
-    download_directory = '.\papers'  # Change this to your desired path
+    download_directory = os.path.join('.', 'papers')  # Change this to your desired path
 
     # Use keywords from command line
     keywords = args.keywords

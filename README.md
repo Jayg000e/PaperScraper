@@ -15,7 +15,7 @@ To download papers related to diffusion in pastweek:
 
 `python scraper.py diffusion --show 100`
 
-This will search 50 recent papers on arxiv, and download the papers related to "diffusion" into the ./papers directory.
+This will search 100 recent papers on arxiv, and download the papers related to "diffusion" into the ./papers directory.
 
 ## Notes
 - Ensure you have the necessary permissions and comply with arXiv's terms of service.

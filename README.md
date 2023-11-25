@@ -7,15 +7,24 @@ This tool streamlines the process of downloading computer vision research papers
 
 Run the scraper with the desired keywords and the number of papers to download:
 
-`python scraper.py [keywords] --show [number]`
+`python parseArxiv.py [keywords] --show [number]`
 
 ### Example
 
 To download papers related to diffusion in pastweek:
 
-`python scraper.py diffusion --show 100`
+`python parseArxiv.py diffusion --show 100`
 
 This will search 100 recent papers on arxiv, and download the papers related to "diffusion" into the ./papers directory.
+
+### Advanced Usage: Multiple Keywords
+
+You can also search using multiple keywords. Simply include each keyword separated by spaces. For instance, to search for papers related to both "transformer" and "diffusion":
+
+```bash
+python parseArxiv.py "transformer" "diffusion" --show 100
+```
+
 
 ## Notes
 - Ensure you have the necessary permissions and comply with arXiv's terms of service.
